@@ -1,2 +1,12 @@
 Summary: 
-nested clustered optimization algorithm (NCO), a method that tackles both sources of efficient frontier's instability. Monte Carlo experiments demonstrate that NCO can reduce the estimation error by up to 90%, relative to traditional portfolio optimization methods (e.g., Black-Litterman).
+Nested clustered optimization algorithm (NCO), a method that tackles both sources of efficient frontier's instability. Monte Carlo experiments demonstrate that NCO can reduce the estimation error by up to 90%, relative to traditional portfolio optimization methods (e.g., Black-Litterman).
+
+Instability source: 1) noise 2) signal??? correlation matrix inverse w.r.t correlation. 
+
+Questions:
+1. shrink only noise? How to identify noise without diluting signal? just by using upper bound of the eigenvalues? first principal component?
+2. 
+
+Takeaways and more questions:
+1. backtest is just only one path of Monte Carlo; but confidence interval can solve this problem, isn't it? even partiallly
+2. 1000 matrix to get 1000 portfolio weight. but it is still based on historical? 
